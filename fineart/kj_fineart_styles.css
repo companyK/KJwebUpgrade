@@ -1,0 +1,107 @@
+
+/***************************************
+   Stylesheet for Kristen A. Jones Fine Art
+	Created: 10/2011
+	Author: Kristen A. Jones
+	Copyright: Kristen A. Jones, 2011
+
+***************************************/
+
+/* * * * * * * * * * * * *
+	Containers
+* * * * * * * * * * * * */
+
+html,body{
+	margin:0;
+	padding:0;
+
+}
+
+body {
+	background-color: #261a0c;
+	margin: 5px 0 0 0;
+	padding: 0;
+	text-align:center;
+
+	
+}
+
+
+div#container{
+	margin: 0 auto;
+	padding: 0;
+	width: 1024px;
+	text-align: center;
+}
+
+
+div#wrapper{
+	margin: 120px 0 0 0;
+	padding: 0;
+	width: 1024px;
+	text-align: center;
+}
+
+
+div#slideshow {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 211px;
+	height: 211px;
+	top: -327px;
+	left: 644px;
+
+}
+
+/* * * * * * * * * * * * *
+	Main Nav
+* * * * * * * * * * * * */
+
+
+
+
+
+/* * * * * * * * * * * * *
+	Footer
+* * * * * * * * * * * * */
+
+
+div#footer {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	text-align: center;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #845e07;
+	line-height: 11pt;
+	bottom: 5px;
+
+}
+
+div#footer a{
+	text-align: center;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #845e07;
+	text-decoration: none;
+}
+
+div#footer a:hover{
+	text-align: center;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #845e07;
+	text-decoration: underline;
+}
+
+/* * * * * * * * * * * * *
+	Design
+* * * * * * * * * * * * */
+
+
+
+
+/* * * * * * * * * * * * *
+	Form
+* * * * * * * * * * * * */
+

@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>::  Kristen Ann Jones  ::  Contact</title>
+<meta name="generator" content="HAPedit 3.1">
+<meta name="author" content="Kristen A. Jones">
+<meta name="copyright" content="Copyright 2011 Kristen A. Jones. All rights reserved.">
+<meta name="description" content="Portfolio site for Kristen A Jones, Artist, Designer, Developer">
+<meta name="keywords" content="art, design, portfolio, graphics, print, web, develop, programming, websites, employment, freelance, hire, manager, content, email, seo, copywriting, marketing, advertising, social media, research, analytics, ecommerce, feedback, inquiry, web master, ">
+<meta name="robots" content="index, follow" >
+<link rel="stylesheet" type="text/css" href="../kajstyles2011.css" />
+
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon" >
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" >
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="../jquery/jquery-1.5.2.js"> </script>
+
+ <script type="text/javascript">         
+
+ <script type="text/javascript">
+   // we will add our javascript code here           
+
+$(document).ready(function(){
+$("#kajcontactform").submit(function(){
+
+// 'this' refers to the current submitted form
+var str = $(this).serialize();
+
+   $.ajax({
+   type: "POST",
+   url: "contact.php",
+   data: str,
+   success: function(msg){
+
+$("#note").ajaxComplete(function(event, request, settings){
+
+if(msg == 'OK') // Message Sent? Show the 'Thank You' message and hide the form
+{
+result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+$("#fields").hide();
+}
+else
+{
+result = msg;
+}
+
+$(this).html(result);
+
+});
+
+}
+
+ });
+
+return false;
+
+});
+
+});
+
+
+ </script>  
+
+
+<script type="text/javascript">
+
+//SuckerTree Horizontal Menu (Sept 14th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+var menuids=["treemenu1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus_horizontal(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+		if (ultags[t].parentNode.parentNode.id==menuids[i]){ //if this is a first level submenu
+			ultags[t].style.top=ultags[t].parentNode.offsetHeight+"px" //dynamically position first level submenus to be height of main menu item
+			ultags[t].parentNode.getElementsByTagName("a")[0].className="mainfoldericon"
+		}
+		else{ //else if this is a sub level menu (ul)
+		  ultags[t].style.left=ultags[t-1].getElementsByTagName("a")[0].offsetWidth+"px" //position menu to the right of menu item that activated it
+    	ultags[t].parentNode.getElementsByTagName("a")[0].className="subfoldericon"
+		}
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.visibility="visible"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.visibility="hidden"
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus_horizontal, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus_horizontal)
+
+</script>
+
+<!-- Google Analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24426660-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+ <body>
+
+<div id="banner">
+<div id="container">
+	
+			<div id="logo"><a href="index.html"><img src="../images/kjlogo2.gif" alt="kristen a jones" border="0"/> </a>
+			<div id="line">&nbsp;</div>
+	</div>
+		
+		
+<div id="wrapper">
+
+		<div class="suckertreemenu">
+		<ul id="treemenu1">
+		
+		<li><a href="feedback.php">contact</a>
+			<ul>
+				<li><a href="feedback.php">feedback</a></li>
+				<li><a href="http://twitter.com/#!/kj_art">twitter</a></li>
+			 </ul>
+		</li>
+		
+		<li><a href="../marketing.html">marketing</a>
+			<ul>
+				<li><a href="../marketing.html#copy">copywriting</a></li>
+				<li><a href="../marketing.html#email">email marketing</a></li>
+				
+				<li><a href="../marketing.html#social">social media</a></li>
+			 </ul>
+		</li>
+		
+		<li><a href="../development.html">development</a>
+			<ul>
+			 
+			  <li><a href="../development.html#project">project management</a></li>
+			  <li><a href="../development.html#program">programming</a></li>
+			 </ul>
+		</li>
+		
+		<li><a href="../design.html">design</a>
+			<ul>
+			  <li><a href="../design.html#graphic">graphic design</a></li>
+			  <li><a href="../design.html#web">web design</a></li>
+			  <li><a href="../design.html#portfolio">portfolio</a></li>
+			 </ul>
+		</li>
+		
+		<li><a href="../bio.html">about</a>
+			  <ul>
+				  <li><a href="../bio.html">bio</a></li>
+				  <li><a href="../resume.html">resum&#233;</a></li>
+				  <li><a href="http://www.linkedin.com/in/kjart">linkedin</a></li>
+				  <li><a href="http://kjart101.blogspot.com/">artlog</a></li>
+			  </ul>
+		</li>
+		
+		<li><a href="../index.html">home</a></li>
+		
+		</ul>
+		<br style="clear: left;" />
+		</div>
+
+<div id="content">   
+	<h1> contact.</h1>
+	
+		Please complete the form below for creative services, website issues, or general comments.
+		<br/><br/>
+
+
+
+<div id="note"></div>
+<div id="fields">
+
+<center>
+
+<form id="kajcontactform" action="javascript:alert('success!');">
+
+		<div id="formleft">
+			<ul>
+				<li><label>Name:</label></li>
+					<li><label>Email:</label></li>
+					<li><label>Subject:</label></li>
+					<li><label>Comments:</label></li>
+			</ul>
+		</div>
+
+		<div id="formright">
+				<ul>
+		
+				<li> <input class="inputbox1" type="text" name="name" value=""> </li>
+					<li><input class="inputbox1" type="text" name="email" value=""></li>
+					<li><input class="inputbox1" type="text" name="subject" value=""></li>
+					<li><textarea class="commentbox" name="message" rows="5" cols="25"></textarea></li>
+				</ul>
+
+		</div>
+
+	<div id="buttons2">
+			<input class="submitbtn2" type="submit" name="submit" value="submit">
+			<input class="submitbtn2" type="button" value="clear" onclick="reset();">
+
+	</div>
+
+
+</form>
+
+</div>
+
+
+</center>
+
+<!-- Form code -->
+
+</div> <!-- content -->
+<br/><br/><br/><br/><br/><br/>
+
+	<div id="footer">
+	&copy; copyright
+					 <script type="text/javascript">
+					var copyrightyear = new Date();
+					document.write(copyrightyear.getFullYear());
+			  </script> kristen a. jones <br/>
+				<a href="feedback.php">contact</a> :: <a href="http://kjart101.blogspot.com/">artlog</a> :: <a href="http://twitter.com/#!/kj_art">twitter</a>
+	</div> <!-- footer -->
+
+</div> <!--containter-->
+</div> <!--banner-->
+
+
+
+
+
+ </body>
+</html>

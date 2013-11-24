@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /joomla/
+Disallow: /redesign/
+Disallow: /jquery/
+Disallow: /stats/
+Disallow: /scripts/
+Crawl-delay: 30

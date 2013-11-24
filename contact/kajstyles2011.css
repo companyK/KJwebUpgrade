@@ -1,0 +1,883 @@
+
+/***************************************
+   Stylesheet for KristenAnnJones.com
+	Created: 6/2011
+	Author: Kristen A. Jones
+	Copyright: Kristen A. Jones, 2011
+
+***************************************/
+
+/* * * * * * * * * * * * *
+	Containers
+* * * * * * * * * * * * */
+
+html,body{
+	margin:0;
+	padding:0;
+
+}
+
+body {
+	background: url(images/kaj_new_bkgd.gif) no-repeat center center fixed; 
+	background-attachment: scroll;
+	background-repeat: repeat;
+	background-color: #89b84c;
+	margin: 5px 0 0 0;
+	padding: 0;
+	text-align:center;
+
+	
+}
+
+
+div#container{
+	margin: 0 auto;
+	padding: 0;
+	width: 910px;
+	text-align:center;
+}
+
+div#logo {
+	position: relative;
+	width: 650px;
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	left: 130px;
+	
+}
+
+/*  IE Fix  */
+* html #logo {
+	float: left;
+
+}
+
+#logo {
+	_float: left;
+	*float: left;
+}
+
+html > #logo {
+	float: left;
+}
+
+*+html #logo {
+	float: left;
+}
+
+
+/* end IE fix */
+
+
+
+
+div#line{
+	border-top: 1px solid #dcddde;
+	margin: 0 0 15px 2px;
+	padding:  0;
+	width: 645px;
+	height: 5px;
+	position: relative;
+	z-index: 1;
+}
+
+div#wrapper{
+	position: relative;
+	width: 650px;
+	min-height: 550px;
+	margin: 0 auto;
+	padding: 0;
+	top: -15px;
+	background-color: #fff;
+	 -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+/**  IE fix **/
+* html #wrapper{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	
+}
+
+div#content{
+	position: relative;
+	width: 550px;
+	padding: 0; 
+	margin: 0 auto;
+	top: 25px;
+	min-height: 500px;
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	line-height: 16pt;
+	color: #7e8083;
+	text-align: left;
+
+}
+
+div#content a{
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	text-decoration: none;
+}
+
+div#content a:hover{
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #89b84c;
+	text-decoration: underline;
+}
+
+div#services ul{
+	margin: 0 auto;
+	padding: 0;
+	width: 580px;
+	height: 250px;
+	
+}
+
+div#services ul li{
+	display: block;
+	position: relative;
+	width: 170px;
+	height: 250px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	float:left;
+	list-style-type: none;
+	line-height: 13pt;
+	border: 1px solid #89b84c;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+div#services a{
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	line-height: 14pt;
+	text-decoration: none;
+
+}
+
+div#services a:hover{
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	line-height: 14pt;
+	color: #8dc63f;
+	text-decoration: underline;
+}
+
+
+/*div#banner{
+	background-image: url(images/banner2.gif);
+	background-position: bottom center;
+	background-repeat: repeat-x;
+	background-attachment: inherit;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	z-index: 99;
+	
+}*/
+
+
+div#signature2 {
+	position: relative;
+	margin: 5px 0 0 350px;
+	padding: 0;
+
+}
+
+.picture1{
+	border: 1px solid #dcddde;
+
+}
+.testimonalsheadline{
+	text-align: center;
+	font: normal 16pt Times, Times New Roman, serif;
+	color: #fff;
+	margin: 0 0 5px 0 ;
+	padding: 0;
+	
+}
+
+div#testimonials{
+	background-color: #bbb;
+	position: relative;
+	float: right;
+	width: 150px;
+	height: auto;
+	padding: 5px;
+	margin-left: 0 0 0 5px;
+	left: 30px;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	line-height: 9pt;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    border-color: #eee;
+}
+
+div#testimonials2{
+	background-color: #eee;
+	position: relative;
+	float: right;
+	width: 150px;
+	height: auto;
+	padding: 5px;
+	margin-left: 0 0 0 5px;
+	left: 30px;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	line-height: 9pt;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    border-color: #7e8083;
+}
+
+
+div#testimonials a{
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	line-height: 9pt;
+}
+
+div#testimonials a:hover{
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #89b84c;
+	line-height: 9pt;
+}
+
+
+div#testimonials ul{
+	margin: 0 0 0 12px;
+	padding: 0;
+
+}
+
+
+div#testimonials ul li{
+	margin: 0 0 7px 0;
+	padding: 0;
+
+}
+
+
+div#resume {
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	line-height: 10pt;
+	width: 380px;
+}
+
+
+
+/***  IE Fix  ***/
+
+* html #resume {
+	float: left;
+	width: 350px;
+
+}
+
+#resume {
+	_float: left;
+	_width: 375px;
+	*float: left;
+	*width: 350px;
+}
+
+html > #resume {
+	float: left;
+	width: 350px;
+}
+
+*+html #resume {
+	float: left;
+	width: 350px;
+}
+
+
+
+
+* html #testimonials {
+	float: right;
+
+}
+
+#testimonials {
+	_float: right;
+	*float: right;
+}
+
+html > #testimonials {
+	float: right;
+
+}
+
+*+html #testimonials {
+	float: right;
+}
+
+
+/* end IE fix */
+
+
+
+
+/* * * * * * * * * * * * *
+	Main Nav
+* * * * * * * * * * * * */
+
+div#mainnav{
+	font: normal 9pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	text-decoration: none;
+	width: 650px;
+	height: 20px;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+div#mainnav a{
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	text-decoration: none;
+	text-align: right;
+}
+
+div#mainnav a:hover{
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #89b84c;
+	text-decoration: underline;
+	text-align: right;
+
+}
+
+div#menu1{
+	margin:-10px 0 20px 15px;
+
+
+}
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.suckertreemenu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	z-index: 1;
+}
+
+/*Top level list items*/
+.suckertreemenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+	text-align: left;
+}
+
+/*Top level menu link items style*/
+.suckertreemenu ul li a{
+	display: block;
+	padding: 0 5px 0 20px;
+	text-decoration: none;
+	text-align: left;
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+}
+	
+/*1st sub level menu*/
+.suckertreemenu ul li ul{
+	left: 0;
+	position: absolute;
+	top: 1em; /* no need to change, as true value set by script */
+	display: block;
+	visibility: hidden;
+	text-align: left;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.suckertreemenu ul li ul li{
+	display: list-item;
+	float: none;
+}
+
+/*All subsequent sub menu levels offset after 1st level sub menu */
+.suckertreemenu ul li ul li ul{ 
+	left: 159px; /* no need to change, as true value set by script */
+	top: 0;
+}
+
+/* Sub level menu links style */
+.suckertreemenu ul li ul li a{
+	display: block;
+	width: 150px; /*width of sub menu levels*/
+	text-decoration: none;
+	padding: 0 5px 0 20px;
+	text-align: left;
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #8dc63f;
+}
+
+.suckertreemenu ul li a:hover{
+	text-decoration: underline;
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #89b84c;
+}
+
+/*Background image for top level menu list links */
+.suckertreemenu .mainfoldericon{
+	background: #ffffff url(media/arrow-down.gif) no-repeat center right;
+}
+
+/*Background image for subsequent level menu list links */
+.suckertreemenu .subfoldericon{
+	background: #ffffff url(media/arrow-right.gif) no-repeat center right;
+}
+
+* html p#iepara{ /*For a paragraph (if any) that immediately follows suckertree menu, add 1em top spacing between the two in IE*/
+	padding-top: 1em;
+}
+	
+/* Holly Hack for IE \*/
+* html .suckertreemenu ul li { float: left; height: 1%; }
+* html .suckertreemenu ul li a { height: 1%; }
+/* End */
+
+
+
+/* * * * * * * * * * * * *
+	Footer
+* * * * * * * * * * * * */
+
+
+div#footer {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	text-align: center;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	line-height: 11pt;
+	bottom: 5px;
+
+}
+
+div#footer a{
+	text-align: center;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	text-decoration: none;
+}
+
+div#footer a:hover{
+	text-align: center;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #89b84c;
+	text-decoration: underline;
+}
+
+/* * * * * * * * * * * * *
+	Design
+* * * * * * * * * * * * */
+
+h1{
+	text-align: left;
+	font: normal 21pt Times, Times New Roman, serif;
+	color: #89b84c;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+h2{
+	text-align: left;
+	font: normal 16pt Times, Times New Roman, serif;
+	color: #89b84c;
+	margin: 0 0 5px 0 ;
+	padding: 0;
+	
+}
+
+h3{
+	border-bottom: 1px solid #dcddde;
+	text-align: left;
+	font: bold 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	margin: 10px 0 5px 0 ;
+	padding: 0;
+	width: 100%;
+	
+}
+
+
+h4{
+	text-align: left;
+	font: bold 8pt Times, Times New Roman, serif;
+	color: #89b84c;
+	margin: 0 0 5px 0 ;
+	padding: 0;
+	
+}
+
+h5{
+	border-bottom: 1px solid #dcddde;
+	text-align: left;
+	font: normal 12pt Times, Times New Roman, serif;
+	color: #89b84c;
+	margin: 0 0 5px 0 ;
+	padding: 0;
+	width: 100%;
+	
+}
+
+.servicesheadline {
+	width: auto;
+	padding: 10px 3px 3px 3px;
+	margin: 0 auto;
+	font: normal 16pt Times, Times New Roman, serif;
+	color: #89b84c;
+	text-align: center;
+
+}
+
+.servicesheadline a{
+	width: auto;
+	padding: 10px 3px 3px 3px;
+	margin: 0 auto;
+	font: normal 16pt Times, Times New Roman, serif;
+	color: #89b84c;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.servicesheadline a:hover{
+	width: auto;
+	padding: 10px 3px 3px 3px;
+	margin: 0 auto;
+	font: normal 16pt Times, Times New Roman, serif;
+	color: #89b84c;
+	text-align: center;
+
+}
+
+.servicescopy {
+	width: auto;
+	padding: 5px;
+	margin: 0 auto;
+	font: normal 8pt  Verdana, Arial, Helvetica, sans-serif;
+	color: #7e8083;
+	text-align: center;
+	line-height: 14pt;
+
+}
+
+/* * * * * * * * * * * * *
+	Form
+* * * * * * * * * * * * */
+
+form{
+	position: relative;
+	width: 600px;
+	height: auto;
+	margin: 0 0 20px 0;
+	padding: 0;
+
+}
+
+div#formleft{
+	position: relative;
+	width: 75px;
+	height: 350px;
+	margin: 15px 0 0 0;
+	padding: 0;
+	float: left;
+
+}
+
+div#formleft ul{
+	position: relative;
+	width: 75px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+div#formleft ul li{
+	position: relative;
+	width: 75px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+div#formright{
+	position: relative;
+	width: 225px;
+	height: 450px;
+	margin:  15px 0 0 0;
+	padding: 0;
+	float: left;
+}
+
+div#formright ul{
+	position: relative;
+	width: 225px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+div#formright ul li{
+	position: relative;
+	width: 225px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+div#formleft2{
+	position: relative;
+	width: 75px;
+	height: 350px;
+	margin: 15px 0 0 0;
+	padding: 0;
+	float: left;
+
+}
+
+div#formleft2 ul{
+	position: relative;
+	width: 75px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+div#formleft2 ul li{
+	position: relative;
+	width: 75px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+div#formright2{
+	position: relative;
+	width: 225px;
+	height: 450px;
+	margin:  15px 0 0 30px;
+	padding: 0;
+	float: left;
+}
+
+div#formright2 ul{
+	position: relative;
+	width: 225px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+div#formright2 ul li{
+	position: relative;
+	width: 225px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+
+div#errors{
+	position: relative;
+	width: 250px;
+	height: 350px;
+	margin: 15px 50px 0 0;
+	padding: 0;
+	float: right;
+}
+
+div#errors ul{
+	position: relative;
+	width: 250px;
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+div#errors ul li{
+	position: relative;
+	width: 250px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+	color: #cb0026;
+	font-weight: bold;
+
+}
+
+
+div#captchabox{
+	position: relative;
+	width: 600px;
+	margin: 280px 0 10px -50px;
+	padding: 0;
+	left: -230px;
+	
+}
+
+
+div#buttons{
+	position: relative;
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	left: -230px;
+	
+
+}
+
+div#buttons2{
+	position: relative;
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	left: -230px;
+	top: 260px;
+
+}
+
+.inputbox1{
+	width: 200px;
+	height: 15px;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #cccccc;
+	text-align: left;
+	border: 1px solid #dcddde;
+}
+
+.commentbox{
+	width: 200px;
+	height: 100px;
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #cccccc;
+	text-align: left;
+	border: 1px solid #dcddde;
+
+}
+
+.submitbtn{
+	width: 70px;
+	height: 20px;
+	font: bold 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	border: 1px solid #dcddde;
+	margin: 5px;
+	padding: 0;
+
+}
+
+.submitbtn:link{
+	width: 70px;
+	height: 20px;
+	font: bold 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	border: 1px solid #dcddde;
+	margin: 5px;
+	padding: 0 0 2px 0;
+
+}
+
+.submitbtn:hover{
+	width: 70px;
+	height: 20px;
+	font: bold 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	border: 1px solid #dcddde;
+	background-color: #89b84c;
+	margin: 5px;
+	padding: 0 0 2px 0;
+
+}
+
+.submitbtn2{
+	width: 70px;
+	height: 20px;
+	font: bold 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	border: 1px solid #dcddde;
+	margin: 5px;
+	padding: 0;
+
+}
+
+.submitbtn2:link{
+	width: 70px;
+	height: 20px;
+	font: bold 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	border: 1px solid #dcddde;
+	margin: 5px;
+	padding: 0 0 2px 0;
+
+}
+
+.submitbtn2:hover{
+	width: 70px;
+	height: 20px;
+	font: bold 8pt Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	border: 1px solid #dcddde;
+	background-color: #89b84c;
+	margin: 5px;
+	padding: 0 0 2px 0;
+
+}
+
+.notification_error
+{
+border: 1px solid #A25965;
+height: auto;
+width: 90%;
+padding: 4px;
+background: #F8F0F1;
+text-align: left;
+color: #000000;
+}
+
+.notification_ok
+{
+/*border: 1px #567397 solid;*/
+height: auto;
+width: 90%
+padding: 8px;
+/*background: #f5f9fd;*/
+text-align: center;
+-moz-border-radius: 5px;
+}
